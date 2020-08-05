@@ -12,6 +12,9 @@ while True:
         print(f"You selected {select}:paper")
     elif select == "3":
         print(f"You selected {select}: scissors")
+     
+    else:
+        pass
 
     computer_select = random.randint(1, 3)
     if computer_select == 1:
